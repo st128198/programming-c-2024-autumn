@@ -1,7 +1,9 @@
-#include<iostream>
+#include <iostream>
 
 int main(int argc, char* argv[])
+
 {
+        
         int V=0;
         int T=0;
         scanf_s("%d", &V);
