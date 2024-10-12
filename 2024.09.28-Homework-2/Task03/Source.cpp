@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 
 int main(int argc, char* argv[])
+
 {
-    int x1, y1, r1, x2, y2, r2;
-    double r;
     
+    int x1=0, y1=0, r1=0, x2=0, y2=0, r2=0;
+    double r;
 
     scanf("%d %d %d %d %d %d", &x1, &y1, &r1, &x2, &y2, &r2);
     
@@ -15,6 +16,6 @@ int main(int argc, char* argv[])
     else
         printf("NO");
         
-    return 0;
+    return EXIT_SUCCESS;
+    
 }
-
