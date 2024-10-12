@@ -1,12 +1,13 @@
-
 #include <stdio.h>
 
-int main() {
-    int l1, w1, h1;
-    int l2, w2, h2;
-    int lc, wc, hc;
+int main() 
 
-
+{
+    
+    int l1=0, w1=0, h1=0;
+    int l2=0, w2=0, h2=0;
+    int lc=0, wc=0, hc=0;
+    
     scanf("%d %d %d", &l1, &w1, &h1);
     if (l1 < w1) 
     {
@@ -65,5 +66,6 @@ int main() {
         printf("NO\n");
     }
 
-    return 0;
+    return EXIT_SUCCESS;
+    
 }
